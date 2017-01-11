@@ -1,4 +1,6 @@
 # Haskell
 Studying Haskell Language
 
-by: HidariMX
+## Personal projects
+
+by: Maxqri96
