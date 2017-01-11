@@ -1,6 +1,6 @@
 # Haskell
 Studying Haskell Language
 
-## Personal projects
+Personal Projects
 
 by: Maxqri96
