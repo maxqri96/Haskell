@@ -1,10 +1,10 @@
-type Nome = String
-type Idade = Int
-type Linguagem = String
-type Pessoa = (Nome, Idade, Linguagem)
+module Teste where
 
-pessoa :: Pessoa
-pessoa = ("Max", 20, "Haskell")
+import Fila
 
-my_fst :: Pessoa -> Nome
-my_fst (x, _, _) = x
+show_fila :: Fila t -> [t]
+show_fila fila | ((filaVazia fila) == True) = []
+               | otherwise = (frente fila):(show_fila(removerFila fila))
+
+top :: Fila t -> t
+top fila = frente fila
